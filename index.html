@@ -1,0 +1,100 @@
+<html>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+<head><title>My Slam Book</title></head>
+    <link rel="stylesheet" href="style.css">
+<body>
+    
+    <logo>
+        <img src="images/images.png" width="100px;">
+    </logo>
+    <h1 id="title">Code Ninjas Survey Form</h1>  
+    <hr>
+    <p id="description">
+       Practice and learn to code on Indias Biggest Coding Community
+    </p>
+    <hr>
+    <br><br>
+    <form id="survey-form">
+        
+<!--        TEXT AREA-->
+        <div class="form-control">
+            <label for="name" id="name-label">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Full name" required><br>
+        </div>       
+<!--        VALID EMAIL AREA-->
+
+        
+        
+        <div class="form-contol">
+            <label for="email" id="email-label">Email</label><br>
+            <input type="email" id="email" name="email" placeholder="Email-id" required><br>
+        </div>
+<!--        CHOOSE A NUMBER-->
+ 
+        
+        
+        <div class="form-contol">
+            <label for="number" id="number-label">Age</label><br>
+            <input type="number" id="number" name="number" placeholder="10" required min="10" max="60"><br>
+       </div>
+<!--        DROPDOWN AREA-->
+
+        
+        
+        <div class="form-contol">
+            <label for="dropdown">Which option best describes your current role?</label><br>
+            <select id="dropdown" name="dropdown" placeholder="Select Current Role">
+              <option value="Student">Student</option>
+              <option value="Full Time Job">Full Time Job</option>
+              <option value="Full Time Lerner">Full Time Lerner</option>
+              <option value="Prefer Not To Say">Prefer Not To Say</option>
+
+            </select><br>
+        </div>
+<!--        Radio Buttons-->
+        
+        
+        <div class="form-contol">
+            <label>Will You Refer this Corse to your Friend?</label><br>
+            <input type="radio" id="definately" name="refer" value="definately">
+            <label for="definately">Definitely</label><br>
+            <input type="radio" id="MAybe" name="refer" value="MAybe">
+            <label for="Maybe">Maybe</label><br>
+            <input type="radio" id="Notsure" name="refer" value="Notsure">
+            <label for="Notesure">Not Sure</label><br>
+        </div>
+<!--        CHECK BOX-->
+        
+        <div class="form-contol">
+            <label>What would you like to see improved? (Check all that apply)</label><br>
+        </div>    
+            <input type="checkbox" id="Front-end Project" name="intrested" value="Front-end Project">
+            <label for="Front-end Project">Front-end Project</label><br>
+            <input type="checkbox" id="Back-end Project" name="intrested" value="Back-end Project">
+            <label for="Back-end Project">Back-end Project</label><br>
+            <input type="checkbox" id="Data Visualization" name="intrested" value="Data Visualization">
+            <label for="Data Visualization">Data Visualization </label><br>
+            <input type="checkbox" id="Open Source Community" name="intrested" value="Open Source Community">
+            <label for="Open Source Community">Open Source Community</label><br>
+            <input type="checkbox" id="Challenges" name="intrested" value="Challenges">
+            <label for="Challenges">Challenges</label><br>
+            <input type="checkbox" id="City Meetups" name="intrested" value="City Meetups">
+            <label for="City Meetups">City Meetups </label><br>
+        
+<!--        TEXT AREA-->
+        
+        <div class="form-contol">
+            <label for="comments">Any comments or suggestions?</label>
+            <textarea id="comments" rows="5" cols="30" placeholder="Enter your suggestion"></textarea><br>
+        </div>
+        <div class="form-contol">
+             <button type="submit" value="Submit" id="submit">Submit</button>
+        </div>
+        
+    </form>
+    <footer>
+         Made with <span class="heart">	&#x2764</span> by <a href="https://github.com/shubhs13" target="_blank">Shubham Pathare</a><br>
+         <div>&copy; Copyright 2020 shubhs13, Inc</div>
+    </footer>   
+</body>
+</html>

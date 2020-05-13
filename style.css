@@ -1,0 +1,65 @@
+body{
+    background-color: #328FC2;
+    color:#030504;
+   
+    
+    font-family: 'Poppins', sans-serif;
+}
+#title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+input[type=text] {
+        width: 100%;
+        color: white;
+        padding: 5px;
+}
+input[type=email] {
+        width: 100%;
+        color: white;
+        padding: 5px;
+}
+input[type=number] {
+        width: 100%;
+        color: white;
+        padding: 5px;
+}
+
+#dropdown{
+    padding: 5px;
+    width: 100%;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: #338FC0;
+    margin: 10px;
+    display: block;
+     box-shadow: 2px 5px 10px rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+form{
+    font-size: 20px;
+    margin: 0 auto;
+    max-width: 550px;
+    padding: 30px 40px;
+    background-color: #E3D5B2;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.4);
+    border-radius: 5px;
+    
+    
+}
+footer{
+    text-align: center;
+}
+textarea{
+    width:100%;
+}
+.form-control{
+    margin-bottom: 40px;
+}
+textarea{
+    padding: 20px;
+}
